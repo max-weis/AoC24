@@ -1,8 +1,4 @@
 export function totaleDistance(left: number[], right: number[]): number {
-  if (left.length !== right.length) {
-      return -1;
-  }
-
   const sortedList1 = [...left].sort((a, b) => a - b);
   const sortedList2 = [...right].sort((a, b) => a - b);
 
